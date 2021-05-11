@@ -1,0 +1,24 @@
+# IDE's
+.idea
+.vscode
+*.iml
+
+# Terraform
+*.backup
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform/
+crash.log
+.terraform.lock.hcl
+
+# Misc
+.history
+.DS_Store
+
+# Testing
+vendor
+
+# Examples
+node_modules
+build

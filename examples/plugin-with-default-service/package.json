@@ -1,0 +1,32 @@
+{
+  "name": "plugin-remove-mute-button",
+  "version": "1.0.0",
+  "description": "This is a test Flex Plugin",
+  "author": "RJPearson94",
+  "scripts": {
+    "build": "flex-plugin build"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1.26.0"
+  },
+  "dependencies": {
+    "craco-config-flex-plugin": "^3.14.6",
+    "flex-plugin": "^3.14.6",
+    "flex-plugin-scripts": "^3.14.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

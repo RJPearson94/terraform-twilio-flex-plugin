@@ -1,0 +1,13 @@
+[
+  {
+    "name": "plugin-remove-mute-button",
+    "version": "0.0.0",
+    "class": "RemoveMuteButtonPlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1"
+      }
+    ],
+    "src": "http://localhost:3000/plugin-remove-mute-button.js"
+  }
+]

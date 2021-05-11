@@ -6,8 +6,7 @@ resource "twilio_serverless_service" "service" {
 module "plugin_remove_mute_button" {
   source = "../../"
 
-  service_sid       = twilio_serverless_service.service.sid
-  plugin_name       = "plugin-remove-mute-button"
-  base_path         = "${path.module}/build"
-  include_sourcemap = false
+  service_sid = twilio_serverless_service.service.sid
+  plugin_name = "plugin-remove-mute-button"
+  base_path   = "${path.module}/build"
 }
